@@ -93,6 +93,9 @@ export default function Home() {
             <Card key={person.name} {...person} />
           ))}
         </div>
+        <div className="flex items-center justify-center font-semibold pb-5">
+          Made with love by Hack Clubbers at Horizon :D
+        </div>
       </main>
     </>
   )
