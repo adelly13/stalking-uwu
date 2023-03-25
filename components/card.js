@@ -1,6 +1,7 @@
 import {SiLinkedin} from "react-icons/si"
 export default function Card({
     name,
+    title,
     linkedin,
     description,
     website,
@@ -13,6 +14,9 @@ export default function Card({
             </div>
             <div className="text-lg font-semibold">
                 {name}
+            </div>
+            <div>
+                <i>{title}</i>
             </div>
             <div className="">
                 {description}        
